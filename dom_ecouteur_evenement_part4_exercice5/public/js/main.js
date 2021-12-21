@@ -44,6 +44,7 @@ let img = div5.querySelector("img")
 let btnImage = div5.querySelector("button")
 
 btnImage.addEventListener("click", function(){
+    //c'est mieux de ne pas utiliser slice parce que sinin ce n'est pas dynamique
     // img.src = pImage.innerText.slice(9)
     img.src = pImage.innerText.replace("Chemin : ", "")
     pImage.innerText = " "
