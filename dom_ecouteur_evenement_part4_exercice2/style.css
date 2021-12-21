@@ -1,0 +1,20 @@
+.red{
+    background-color: red;
+    color: white;
+}
+
+.h3:hover{
+    font-size:smaller;
+}
+
+.blue{
+    background-color: blue;
+    color : gold
+}
+
+.black{
+    background-color: white;
+    color: black;
+}
+
+
